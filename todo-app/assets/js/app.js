@@ -7,15 +7,21 @@ const user_mail = document.getElementById('user-mail');
 
 // Codígo nesesario para mostrar información
 userSelect.addEventListener('change', () => {
-  const userId = userSelect.value;
-  const users = getAllUsers();
-  const selectedUser = users.find(user => user.id === parseInt(userId));
+  const userId = parseInt(userSelect.value);
 
-  // Mostrar información del usuario seleccionado
-  document.getElementById('user-name').innerHTML = `${selectedUser.firstname} ${selectedUser.lastname}`;
-  document.getElementById('user-mail').innerHTML = selectedUser.email;
-
-  console.log('5');
+  getAllUsers()
+    .then(function(json){
+      console.log("JSON recibido:", json);
+      for (let i = 0; i < json.usuarios.length; i++) {
+        console.log("Comparando userId con id:", userId, json.usuarios[i].id);
+        if (userId === json.usuarios[i].id) {
+          const { firstname, lastname, email } = json.usuarios[i];
+          user_name.innerHTML = `${firstname} ${lastname}`;
+          user_mail.innerHTML = email;
+          break;
+        }
+      }
+    });
 });
 
 // Fin de codígo 
@@ -26,7 +32,7 @@ userSelect.addEventListener('change', () => {
  * @returns {Promise<User[]>}
  */
 function getAllUsers() {
-  return fetch('/data/usuarios.json')
+  return fetch('/todo-app/data/usuarios.json')
     .then(resp => resp.json());
 }
 
