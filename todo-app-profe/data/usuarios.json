@@ -1,0 +1,62 @@
+[
+    {
+      "id": 1,
+      "firstname": "Rogelio",
+      "lastname": "Trejo Estrada",
+      "email": "rogelio.estrada@gmail.com"
+    },
+    {
+      "id": 2,
+      "firstname": "Luis",
+      "lastname": "Leon Pedroza",
+      "email": "lleonramirez1972@gmail.com"
+    },
+    {
+      "id": 3,
+      "firstname": "Francisco",
+      "lastname": "Baños Luna",
+      "email": "francisco.baños@gmail.com"
+    },
+    {
+      "id": 4,
+      "firstname": "Gabriel",
+      "lastname": "Hernandez",
+      "email": "g.hernandez@gmail.com"
+    },
+    {
+      "id": 5,
+      "firstname": "Leonardo",
+      "lastname": "Millan",
+      "email": "leonardo.mllan@gmail.com"
+    },
+    {
+      "id": 6,
+      "firstname": "Sofia",
+      "lastname": "Calderon Juarez",
+      "email": "sof.cald@gmail.com"
+    },
+    {
+      "id": 7,
+      "firstname": "Paulina Jaquelin",
+      "lastname": "Alvarez Martinez",
+      "email": "pau.am@gmail.com"
+    },
+    {
+      "id": 8,
+      "firstname": "Fernanda",
+      "lastname": "Aguilar Gonzalez",
+      "email": "fer_gonz@gmail.com"
+    },
+    {
+      "id": 9,
+      "firstname": "Juan Pablo ",
+      "lastname": "Ruiz Esparza",
+      "email": "jp.ruiz@gmail.com"
+    },
+    {
+      "id": 10,
+      "firstname": "David Alejandro",
+      "lastname": "Moreno Chaparro",
+      "email": "MChdavid@gmail.com"
+    }
+  ]
