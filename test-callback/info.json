@@ -1,0 +1,14 @@
+{
+    "usuarios": [
+        {
+            "name" : "Luis Leon",
+            "years": 21,
+            "live": true
+        },
+        {
+            "name": "Gabriel Hernandez",
+            "years": 20,
+            "live":false
+        }
+    ]
+}
