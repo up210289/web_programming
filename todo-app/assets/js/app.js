@@ -4,6 +4,7 @@ const userContainer = document.getElementById('user-container');
 const taskContainer = document.getElementById('task-container');
 const user_name = document.getElementById('user-name');
 const user_mail = document.getElementById('user-mail');
+const task_list = document.getElementById('tasklist');
 
 // Codígo nesesario para mostrar información
 userSelect.addEventListener('change', () => {
@@ -11,7 +12,7 @@ userSelect.addEventListener('change', () => {
 
   getAllUsers()
     .then(function(json){
-      console.log("JSON recibido:", json);
+      console.log("JSON usuarios recibido:", json);
       for (let i = 0; i < json.usuarios.length; i++) {
         console.log("Comparando userId con id:", userId, json.usuarios[i].id);
         if (userId === json.usuarios[i].id) {
@@ -21,6 +22,20 @@ userSelect.addEventListener('change', () => {
           break;
         }
       }
+
+      getAllTasks()
+        .then(function(json){
+          console.log("JSON tareas recibido:", json);
+          const ul = document.createElement('ul');
+          for (let i = 0; i < json.tareas.length; i++) {
+            if (userId === json.tareas[i].userId) {
+              const li = document.createElement('li');
+              li.innerText = json.tareas[i].title;
+              ul.appendChild(li);
+            }
+          }
+          task_list.appendChild(ul);
+        });
     });
 });
 
@@ -43,7 +58,7 @@ function getAllUsers() {
  * @returns {Promise<Task[]>}
  */
 function getAllTasks() {
-  return fetch('/data/usuarios.json')
+  return fetch('/todo-app/data/tareas.json')
     .then(resp => resp.json());
 }
 
