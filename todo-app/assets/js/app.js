@@ -30,9 +30,13 @@ userSelect.addEventListener('change', () => {
           for (let i = 0; i < json.tareas.length; i++) {
             if (userId === json.tareas[i].userId) {
               const li = document.createElement('li');
+              const checkbox = document.createElement('input');
+              checkbox.type = 'checkbox';
               li.innerText = json.tareas[i].title;
+              li.appendChild(checkbox)
               ul.appendChild(li);
             }
+
           }
           task_list.appendChild(ul);
         });

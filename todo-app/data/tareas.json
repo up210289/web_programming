@@ -3,25 +3,25 @@
     {
       "userId": 1,
       "id": 1,
-      "title": "delectus aut autem",
+      "title": "Comprar comestibles",
       "completed": false
     },
     {
       "userId": 1,
       "id": 2,
-      "title": "quis ut nam facilis et officia qui",
+      "title": "Hacer ejercicio",
       "completed": false
     },
     {
       "userId": 1,
       "id": 3,
-      "title": "fugiat veniam minus",
+      "title": "Leer un libro",
       "completed": false
     },
     {
       "userId": 1,
       "id": 4,
-      "title": "et porro tempora",
+      "title": "Limpiar la casa",
       "completed": true
     },
     {
@@ -33,931 +33,931 @@
     {
       "userId": 1,
       "id": 6,
-      "title": "qui ullam ratione quibusdam voluptatem quia omnis",
+      "title": "Hacer la colada",
       "completed": false
     },
     {
       "userId": 1,
       "id": 7,
-      "title": "illo expedita consequatur quia in",
+      "title": "Estudiar para un examen",
       "completed": false
     },
     {
       "userId": 1,
       "id": 8,
-      "title": "quo adipisci enim quam ut ab",
+      "title": "Preparar la cena",
       "completed": true
     },
     {
       "userId": 1,
       "id": 9,
-      "title": "molestiae perspiciatis ipsa",
+      "title": "Escribir en un diario",
       "completed": false
     },
     {
       "userId": 1,
       "id": 10,
-      "title": "illo est ratione doloremque quia maiores aut",
+      "title": "Llamar a un amigo/familiar",
       "completed": true
     },
     {
       "userId": 1,
       "id": 11,
-      "title": "vero rerum temporibus dolor",
+      "title": "Organizar el armario",
       "completed": true
     },
     {
       "userId": 1,
       "id": 12,
-      "title": "ipsa repellendus fugit nisi",
+      "title": "Ir al banco",
       "completed": true
     },
     {
       "userId": 1,
       "id": 13,
-      "title": "et doloremque nulla",
+      "title": "Hacer una caminata",
       "completed": false
     },
     {
       "userId": 1,
       "id": 14,
-      "title": "repellendus sunt dolores architecto voluptatum",
+      "title": "Reparar algo en casa",
       "completed": true
     },
     {
       "userId": 1,
       "id": 15,
-      "title": "ab voluptatum amet voluptas",
+      "title": "Planificar unas vacaciones",
       "completed": true
     },
     {
       "userId": 1,
       "id": 16,
-      "title": "accusamus eos facilis sint et aut voluptatem",
+      "title": "Meditar",
       "completed": true
     },
     {
       "userId": 1,
       "id": 17,
-      "title": "quo laboriosam deleniti aut qui",
+      "title": "Aprender un idioma nuevo",
       "completed": true
     },
     {
       "userId": 1,
       "id": 18,
-      "title": "dolorum est consequatur ea mollitia in culpa",
+      "title": "Hacer una tarea pendiente",
       "completed": false
     },
     {
       "userId": 1,
       "id": 19,
-      "title": "molestiae ipsa aut voluptatibus pariatur dolor nihil",
+      "title": "Investigar un tema de interés",
       "completed": true
     },
     {
       "userId": 1,
       "id": 20,
-      "title": "ullam nobis libero sapiente ad optio sint",
+      "title": "Practicar un hobby",
       "completed": true
     },
     {
       "userId": 2,
       "id": 21,
-      "title": "suscipit repellat esse quibusdam voluptatem incidunt",
+      "title": "Completar un proyecto de trabajo",
       "completed": false
     },
     {
       "userId": 2,
       "id": 22,
-      "title": "distinctio vitae autem nihil ut molestias quo",
+      "title": "Visitar a un pariente",
       "completed": true
     },
     {
       "userId": 2,
       "id": 23,
-      "title": "et itaque necessitatibus maxime molestiae qui quas velit",
+      "title": "Investigar sobre un tema de interés personal",
       "completed": false
     },
     {
       "userId": 2,
       "id": 24,
-      "title": "adipisci non ad dicta qui amet quaerat doloribus ea",
+      "title": "Organizar documentos y papeles",
       "completed": false
     },
     {
       "userId": 2,
       "id": 25,
-      "title": "voluptas quo tenetur perspiciatis explicabo natus",
+      "title": "Hacer una sesión de ejercicios de estiramiento",
       "completed": true
     },
     {
       "userId": 2,
       "id": 26,
-      "title": "aliquam aut quasi",
+      "title": "Enviar correos electrónicos importantes",
       "completed": true
     },
     {
       "userId": 2,
       "id": 27,
-      "title": "veritatis pariatur delectus",
+      "title": "Hacer un recorrido turístico por la ciudad",
       "completed": true
     },
     {
       "userId": 2,
       "id": 28,
-      "title": "nesciunt totam sit blanditiis sit",
+      "title": "Cocinar una nueva receta",
       "completed": false
     },
     {
       "userId": 2,
       "id": 29,
-      "title": "laborum aut in quam",
+      "title": "Revisar y actualizar el currículum vitae",
       "completed": false
     },
     {
       "userId": 2,
       "id": 30,
-      "title": "nemo perspiciatis repellat ut dolor libero commodi blanditiis omnis",
+      "title": "Hacer una llamada de seguimiento a un cliente",
       "completed": true
     },
     {
       "userId": 2,
       "id": 31,
-      "title": "repudiandae totam in est sint facere fuga",
+      "title": "Limpiar y desinfectar el baño",
       "completed": false
     },
     {
       "userId": 2,
       "id": 32,
-      "title": "earum doloribus ea doloremque quis",
+      "title": "Practicar un instrumento musical",
       "completed": false
     },
     {
       "userId": 2,
       "id": 33,
-      "title": "sint sit aut vero",
+      "title": "Hacer una donación a una organización benéfica",
       "completed": false
     },
     {
       "userId": 2,
       "id": 34,
-      "title": "porro aut necessitatibus eaque distinctio",
+      "title": "Leer las noticias del día",
       "completed": false
     },
     {
       "userId": 2,
       "id": 35,
-      "title": "repellendus veritatis molestias dicta incidunt",
+      "title": "Hacer una sesión de fotografía al aire libre",
       "completed": true
     },
     {
       "userId": 2,
       "id": 36,
-      "title": "excepturi deleniti adipisci voluptatem et neque optio illum ad",
+      "title": "Organizar una reunión familiar",
       "completed": true
     },
     {
       "userId": 2,
       "id": 37,
-      "title": "sunt cum tempora",
+      "title": "Reparar o mantener un dispositivo electrónico",
       "completed": false
     },
     {
       "userId": 2,
       "id": 38,
-      "title": "totam quia non",
+      "title": "Escribir en un blog personal",
       "completed": false
     },
     {
       "userId": 2,
       "id": 39,
-      "title": "doloremque quibusdam asperiores libero corrupti illum qui omnis",
+      "title": "Practicar técnicas de meditación o mindfulness",
       "completed": false
     },
     {
       "userId": 2,
       "id": 40,
-      "title": "totam atque quo nesciunt",
+      "title": "Aprender una nueva habilidad en línea",
       "completed": true
     },
     {
       "userId": 3,
       "id": 41,
-      "title": "aliquid amet impedit consequatur aspernatur placeat eaque fugiat suscipit",
+      "title": "Ir al gimnasio",
       "completed": false
     },
     {
       "userId": 3,
       "id": 42,
-      "title": "rerum perferendis error quia ut eveniet",
+      "title": "Completar un formulario o solicitud",
       "completed": false
     },
     {
       "userId": 3,
       "id": 43,
-      "title": "tempore ut sint quis recusandae",
+      "title": "Visitar un museo o galería de arte",
       "completed": true
     },
     {
       "userId": 3,
       "id": 44,
-      "title": "cum debitis quis accusamus doloremque ipsa natus sapiente omnis",
+      "title": "Hacer una excursión al aire libre",
       "completed": true
     },
     {
       "userId": 3,
       "id": 45,
-      "title": "velit soluta adipisci molestias reiciendis harum",
+      "title": "Escuchar un podcast interesante",
       "completed": false
     },
     {
       "userId": 3,
       "id": 46,
-      "title": "vel voluptatem repellat nihil placeat corporis",
+      "title": "Reorganizar el mobiliario en casa",
       "completed": false
     },
     {
       "userId": 3,
       "id": 47,
-      "title": "nam qui rerum fugiat accusamus",
+      "title": "Escribir un poema o una historia corta",
       "completed": false
     },
     {
       "userId": 3,
       "id": 48,
-      "title": "sit reprehenderit omnis quia",
+      "title": "Participar en un voluntariado local",
       "completed": false
     },
     {
       "userId": 3,
       "id": 49,
-      "title": "ut necessitatibus aut maiores debitis officia blanditiis velit et",
+      "title": "Hacer una sesión de yoga o pilates",
       "completed": false
     },
     {
       "userId": 3,
       "id": 50,
-      "title": "cupiditate necessitatibus ullam aut quis dolor voluptate",
+      "title": "Realizar un análisis de presupuesto personal",
       "completed": true
     },
     {
       "userId": 3,
       "id": 51,
-      "title": "distinctio exercitationem ab doloribus",
+      "title": "Investigar sobre nuevas tecnologías",
       "completed": false
     },
     {
       "userId": 3,
       "id": 52,
-      "title": "nesciunt dolorum quis recusandae ad pariatur ratione",
+      "title": "Organizar una cena o reunión con amigos",
       "completed": false
     },
     {
       "userId": 3,
       "id": 53,
-      "title": "qui labore est occaecati recusandae aliquid quam",
+      "title": "Hacer un recorrido histórico por la ciudad",
       "completed": false
     },
     {
       "userId": 3,
       "id": 54,
-      "title": "quis et est ut voluptate quam dolor",
+      "title": "Realizar un seguimiento de metas y objetivos personales",
       "completed": true
     },
     {
       "userId": 3,
       "id": 55,
-      "title": "voluptatum omnis minima qui occaecati provident nulla voluptatem ratione",
+      "title": "Aprender a cocinar una receta internacional",
       "completed": true
     },
     {
       "userId": 3,
       "id": 56,
-      "title": "deleniti ea temporibus enim",
+      "title": "Hacer una limpieza a fondo del automóvil",
       "completed": true
     },
     {
       "userId": 3,
       "id": 57,
-      "title": "pariatur et magnam ea doloribus similique voluptatem rerum quia",
+      "title": "Visitar una feria o mercado local",
       "completed": false
     },
     {
       "userId": 3,
       "id": 58,
-      "title": "est dicta totam qui explicabo doloribus qui dignissimos",
+      "title": "Hacer una sesión de dibujo o pintura",
       "completed": false
     },
     {
       "userId": 3,
       "id": 59,
-      "title": "perspiciatis velit id laborum placeat iusto et aliquam odio",
+      "title": "Plantar flores o vegetales en el jardín",
       "completed": false
     },
     {
       "userId": 3,
       "id": 60,
-      "title": "et sequi qui architecto ut adipisci",
+      "title": "Realizar una sesión de spa en casa",
       "completed": true
     },
     {
       "userId": 4,
       "id": 61,
-      "title": "odit optio omnis qui sunt",
+      "title": "Leer un artículo científico o académico",
       "completed": true
     },
     {
       "userId": 4,
       "id": 62,
-      "title": "et placeat et tempore aspernatur sint numquam",
+      "title": "Organizar una maratón de películas o series",
       "completed": false
     },
     {
       "userId": 4,
       "id": 63,
-      "title": "doloremque aut dolores quidem fuga qui nulla",
+      "title": "Hacer un picnic en un parque cercano",
       "completed": true
     },
     {
       "userId": 4,
       "id": 64,
-      "title": "voluptas consequatur qui ut quia magnam nemo esse",
+      "title": "Escribir una carta a un amigo o ser querido",
       "completed": false
     },
     {
       "userId": 4,
       "id": 65,
-      "title": "fugiat pariatur ratione ut asperiores necessitatibus magni",
+      "title": "Investigar sobre técnicas de productividad",
       "completed": false
     },
     {
       "userId": 4,
       "id": 66,
-      "title": "rerum eum molestias autem voluptatum sit optio",
+      "title": "Aprender a tocar una nueva canción en un instrumento musical",
       "completed": false
     },
     {
       "userId": 4,
       "id": 67,
-      "title": "quia voluptatibus voluptatem quos similique maiores repellat",
+      "title": "Participar en un curso en línea sobre un tema de interés",
       "completed": false
     },
     {
       "userId": 4,
       "id": 68,
-      "title": "aut id perspiciatis voluptatem iusto",
+      "title": "Practicar ejercicios de respiración y relajación",
       "completed": false
     },
     {
       "userId": 4,
       "id": 69,
-      "title": "doloribus sint dolorum ab adipisci itaque dignissimos aliquam suscipit",
+      "title": "Hacer una lista de deseos o metas a largo plazo",
       "completed": false
     },
     {
       "userId": 4,
       "id": 70,
-      "title": "ut sequi accusantium et mollitia delectus sunt",
+      "title": "Explorar un nuevo vecindario o área de la ciudad",
       "completed": false
     },
     {
       "userId": 4,
       "id": 71,
-      "title": "aut velit saepe ullam",
+      "title": "Hacer una sesión de juego de mesa con amigos o familiares",
       "completed": false
     },
     {
       "userId": 4,
       "id": 72,
-      "title": "praesentium facilis facere quis harum voluptatibus voluptatem eum",
+      "title": "Probar una receta de cocina de un país diferente",
       "completed": false
     },
     {
       "userId": 4,
       "id": 73,
-      "title": "sint amet quia totam corporis qui exercitationem commodi",
+      "title": "Investigar sobre eventos culturales próximos en tu ciudad",
       "completed": true
     },
     {
       "userId": 4,
       "id": 74,
-      "title": "expedita tempore nobis eveniet laborum maiores",
+      "title": "Participar en una sesión de debate sobre un tema polémico",
       "completed": false
     },
     {
       "userId": 4,
       "id": 75,
-      "title": "occaecati adipisci est possimus totam",
+      "title": "Hacer una limpieza digital: organizar y eliminar archivos innecesarios en tu computadora",
       "completed": false
     },
     {
       "userId": 4,
       "id": 76,
-      "title": "sequi dolorem sed",
+      "title": "Hacer una sesión de manualidades o bricolaje",
       "completed": true
     },
     {
       "userId": 4,
       "id": 77,
-      "title": "maiores aut nesciunt delectus exercitationem vel assumenda eligendi at",
+      "title": "Practicar técnicas de escritura creativa",
       "completed": false
     },
     {
       "userId": 4,
       "id": 78,
-      "title": "reiciendis est magnam amet nemo iste recusandae impedit quaerat",
+      "title": "Organizar una noche de juegos de video con amigos",
       "completed": false
     },
     {
       "userId": 4,
       "id": 79,
-      "title": "eum ipsa maxime ut",
+      "title": "Hacer una sesión de fotografiado de paisajes urbanos",
       "completed": true
     },
     {
       "userId": 4,
       "id": 80,
-      "title": "tempore molestias dolores rerum sequi voluptates ipsum consequatur",
+      "title": "Visitar una librería local y explorar nuevos libros y autores",
       "completed": true
     },
     {
       "userId": 5,
       "id": 81,
-      "title": "suscipit qui totam",
+      "title": "Explorar un sendero natural en el bosque o la montaña",
       "completed": true
     },
     {
       "userId": 5,
       "id": 82,
-      "title": "voluptates eum voluptas et dicta",
+      "title": "Escribir un diario de gratitud enumerando cosas por las que estás agradecido/a",
       "completed": false
     },
     {
       "userId": 5,
       "id": 83,
-      "title": "quidem at rerum quis ex aut sit quam",
+      "title": "Investigar sobre técnicas de mindfulness y practicarlas durante unos minutos al día",
       "completed": true
     },
     {
       "userId": 5,
       "id": 84,
-      "title": "sunt veritatis ut voluptate",
+      "title": "Planificar un viaje futuro, investigando destinos, alojamientos y actividades",
       "completed": false
     },
     {
       "userId": 5,
       "id": 85,
-      "title": "et quia ad iste a",
+      "title": "Hacer una sesión de ejercicios de estiramiento y relajación antes de dormir",
       "completed": true
     },
     {
       "userId": 5,
       "id": 86,
-      "title": "incidunt ut saepe autem",
+      "title": "Practicar la jardinería y cuidar de tus plantas",
       "completed": true
     },
     {
       "userId": 5,
       "id": 87,
-      "title": "laudantium quae eligendi consequatur quia et vero autem",
+      "title": "Hacer una lista de reproducción de música para distintos estados de ánimo",
       "completed": true
     },
     {
       "userId": 5,
       "id": 88,
-      "title": "vitae aut excepturi laboriosam sint aliquam et et accusantium",
+      "title": "Leer un libro de un género que normalmente no sueles explorar",
       "completed": false
     },
     {
       "userId": 5,
       "id": 89,
-      "title": "sequi ut omnis et",
+      "title": "Leer un libro de un género que normalmente no sueles explorar",
       "completed": true
     },
     {
       "userId": 5,
       "id": 90,
-      "title": "molestiae nisi accusantium tenetur dolorem et",
+      "title": "Cocinar una comida especial para ti mismo/a o para alguien cercano",
       "completed": true
     },
     {
       "userId": 5,
       "id": 91,
-      "title": "nulla quis consequatur saepe qui id expedita",
+      "title": "Hacer un paseo en bicicleta por un sendero pintoresco",
       "completed": true
     },
     {
       "userId": 5,
       "id": 92,
-      "title": "in omnis laboriosam",
+      "title": "Aprender una nueva receta de coctel o bebida y prepararla en casa",
       "completed": true
     },
     {
       "userId": 5,
       "id": 93,
-      "title": "odio iure consequatur molestiae quibusdam necessitatibus quia sint",
+      "title": "Hacer una sesión de meditación guiada para relajar la mente y el cuerpo",
       "completed": true
     },
     {
       "userId": 5,
       "id": 94,
-      "title": "facilis modi saepe mollitia",
+      "title": "Practicar técnicas de dibujo o pintura al óleo",
       "completed": false
     },
     {
       "userId": 5,
       "id": 95,
-      "title": "vel nihil et molestiae iusto assumenda nemo quo ut",
+      "title": "Investigar sobre un tema de historia o cultura que te interese y profundizar en él",
       "completed": true
     },
     {
       "userId": 5,
       "id": 96,
-      "title": "nobis suscipit ducimus enim asperiores voluptas",
+      "title": "Planificar un día de autorecuperación con actividades que te hagan sentir bien",
       "completed": false
     },
     {
       "userId": 5,
       "id": 97,
-      "title": "dolorum laboriosam eos qui iure aliquam",
+      "title": "Hacer una lista de películas clásicas que siempre has querido ver y comenzar a verlas",
       "completed": false
     },
     {
       "userId": 5,
       "id": 98,
-      "title": "debitis accusantium ut quo facilis nihil quis sapiente necessitatibus",
+      "title": "Realizar una sesión de fotografía macro, capturando detalles en pequeña escala",
       "completed": true
     },
     {
       "userId": 5,
       "id": 99,
-      "title": "neque voluptates ratione",
+      "title": "Practicar ejercicios de respiración profunda para reducir el estrés y la ansiedad",
       "completed": false
     },
     {
       "userId": 5,
       "id": 100,
-      "title": "excepturi a et neque qui expedita vel voluptate",
+      "title": "Crear un collage de imágenes inspiradoras y motivadoras para colocar en tu espacio de trabajo o habitación",
       "completed": false
     },
     {
       "userId": 6,
       "id": 101,
-      "title": "explicabo enim cumque porro aperiam occaecati minima",
+      "title": "Escribir una carta de agradecimiento a alguien que haya tenido un impacto positivo en tu vida.",
       "completed": false
     },
     {
       "userId": 6,
       "id": 102,
-      "title": "sed ab consequatur",
+      "title": "Visitar una galería de arte local o un museo virtual y apreciar diferentes obras de arte.",
       "completed": false
     },
     {
       "userId": 6,
       "id": 103,
-      "title": "non sunt delectus illo nulla tenetur enim omnis",
+      "title": "Explorar un nuevo género musical y crear una lista de reproducción con tus canciones favoritas.",
       "completed": false
     },
     {
       "userId": 6,
       "id": 104,
-      "title": "excepturi non laudantium quo",
+      "title": "Practicar la técnica de origami y crear figuras de papel.",
       "completed": false
     },
     {
       "userId": 6,
       "id": 105,
-      "title": "totam quia dolorem et illum repellat voluptas optio",
+      "title": "Hacer una sesión de ejercicios de respiración para mejorar la concentración y la relajación.",
       "completed": true
     },
     {
       "userId": 6,
       "id": 106,
-      "title": "ad illo quis voluptatem temporibus",
+      "title": "Planificar un día de voluntariado en una organización benéfica de tu comunidad.",
       "completed": true
     },
     {
       "userId": 6,
       "id": 107,
-      "title": "praesentium facilis omnis laudantium fugit ad iusto nihil nesciunt",
+      "title": "Visitar un mercado de agricultores y comprar productos frescos para cocinar una comida saludable.",
       "completed": false
     },
     {
       "userId": 6,
       "id": 108,
-      "title": "a eos eaque nihil et exercitationem incidunt delectus",
+      "title": "Realizar una sesión de escritura libre para expresar tus pensamientos y emociones.",
       "completed": true
     },
     {
       "userId": 6,
       "id": 109,
-      "title": "autem temporibus harum quisquam in culpa",
+      "title": "Aprender a hacer manualidades con materiales reciclados.",
       "completed": true
     },
     {
       "userId": 6,
       "id": 110,
-      "title": "aut aut ea corporis",
+      "title": "Organizar una noche de juegos de mesa con amigos o familiares.",
       "completed": true
     },
     {
       "userId": 6,
       "id": 111,
-      "title": "magni accusantium labore et id quis provident",
+      "title": "Investigar sobre la historia y la cultura de un país que te interese.",
       "completed": false
     },
     {
       "userId": 6,
       "id": 112,
-      "title": "consectetur impedit quisquam qui deserunt non rerum consequuntur eius",
+      "title": "Hacer una caminata por un parque natural y disfrutar del aire fresco y la naturaleza.",
       "completed": false
     },
     {
       "userId": 6,
       "id": 113,
-      "title": "quia atque aliquam sunt impedit voluptatum rerum assumenda nisi",
+      "title": "Hacer una lista de reproducción de películas clásicas y tener una maratón de cine en casa.",
       "completed": false
     },
     {
       "userId": 6,
       "id": 114,
-      "title": "cupiditate quos possimus corporis quisquam exercitationem beatae",
+      "title": "Practicar la técnica de la atención plena (mindfulness) durante unos minutos cada día.",
       "completed": false
     },
     {
       "userId": 6,
       "id": 115,
-      "title": "sed et ea eum",
+      "title": "Experimentar con una nueva receta de postre y compartirlo con amigos o vecinos.",
       "completed": false
     },
     {
       "userId": 6,
       "id": 116,
-      "title": "ipsa dolores vel facilis ut",
+      "title": "Hacer una sesión de ejercicios de estiramiento para mejorar la flexibilidad y reducir la tensión muscular.",
       "completed": true
     },
     {
       "userId": 6,
       "id": 117,
-      "title": "sequi quae est et qui qui eveniet asperiores",
+      "title": "Visitar una librería independiente y descubrir nuevos libros y autores.",
       "completed": false
     },
     {
       "userId": 6,
       "id": 118,
-      "title": "quia modi consequatur vero fugiat",
+      "title": "Participar en una clase de cocina virtual y aprender a hacer platos de diferentes culturas.",
       "completed": false
     },
     {
       "userId": 6,
       "id": 119,
-      "title": "corporis ducimus ea perspiciatis iste",
+      "title": "Hacer una sesión de fotografía de paisajes urbanos al atardecer.",
       "completed": false
     },
     {
       "userId": 6,
       "id": 120,
-      "title": "dolorem laboriosam vel voluptas et aliquam quasi",
+      "title": "Crear un tablero de visión con imágenes y palabras que representen tus metas y sueños.",
       "completed": false
     },
     {
       "userId": 7,
       "id": 121,
-      "title": "inventore aut nihil minima laudantium hic qui omnis",
+      "title": "Practicar la técnica de la escritura de gratitud, anotando tres cosas por las que estás agradecido/a cada día.",
       "completed": true
     },
     {
       "userId": 7,
       "id": 122,
-      "title": "provident aut nobis culpa",
+      "title": "Realizar una sesión de ejercicios de mindfulness, prestando atención plena al momento presente.",
       "completed": true
     },
     {
       "userId": 7,
       "id": 123,
-      "title": "esse et quis iste est earum aut impedit",
+      "title": "Investigar sobre un tema de ciencia o tecnología que te resulte interesante y escribir un resumen sobre lo aprendido.",
       "completed": false
     },
     {
       "userId": 7,
       "id": 124,
-      "title": "qui consectetur id",
+      "title": "Hacer una sesión de dibujo al aire libre, capturando la belleza de la naturaleza.",
       "completed": false
     },
     {
       "userId": 7,
       "id": 125,
-      "title": "aut quasi autem iste tempore illum possimus",
+      "title": "Planificar un picnic en un parque cercano y disfrutar de un día al aire libre con amigos o familiares.",
       "completed": false
     },
     {
       "userId": 7,
       "id": 126,
-      "title": "ut asperiores perspiciatis veniam ipsum rerum saepe",
+      "title": "Practicar la técnica de la escritura automática, dejando fluir tus pensamientos sin censura.",
       "completed": true
     },
     {
       "userId": 7,
       "id": 127,
-      "title": "voluptatem libero consectetur rerum ut",
+      "title": "Organizar una noche de juegos de mesa con temática de trivia y desafiar a tus amigos con preguntas divertidas.",
       "completed": true
     },
     {
       "userId": 7,
       "id": 128,
-      "title": "eius omnis est qui voluptatem autem",
+      "title": "Visitar una feria de artesanías local y apoyar a los artistas locales comprando sus productos.",
       "completed": false
     },
     {
       "userId": 7,
       "id": 129,
-      "title": "rerum culpa quis harum",
+      "title": "Hacer una sesión de yoga al amanecer para comenzar el día con calma y energía.",
       "completed": false
     },
     {
       "userId": 7,
       "id": 130,
-      "title": "nulla aliquid eveniet harum laborum libero alias ut unde",
+      "title": "Aprender una nueva habilidad manual, como tejer, coser o hacer cerámica.",
       "completed": true
     },
     {
       "userId": 7,
       "id": 131,
-      "title": "qui ea incidunt quis",
+      "title": "Explorar un nuevo sendero de senderismo en la naturaleza y disfrutar del paisaje.",
       "completed": false
     },
     {
       "userId": 7,
       "id": 132,
-      "title": "qui molestiae voluptatibus velit iure harum quisquam",
+      "title": "Hacer una sesión de meditación guiada para reducir el estrés y la ansiedad.",
       "completed": true
     },
     {
       "userId": 7,
       "id": 133,
-      "title": "et labore eos enim rerum consequatur sunt",
+      "title": "Organizar una noche de karaoke en casa con amigos y cantar tus canciones favoritas.",
       "completed": true
     },
     {
       "userId": 7,
       "id": 134,
-      "title": "molestiae doloribus et laborum quod ea",
+      "title": "Practicar la técnica de la respiración profunda para relajar el cuerpo y la mente.",
       "completed": false
     },
     {
       "userId": 7,
       "id": 135,
-      "title": "facere ipsa nam eum voluptates reiciendis vero qui",
+      "title": "Experimentar con una nueva receta de cocina internacional y disfrutar de sabores exóticos.",
       "completed": false
     },
     {
       "userId": 7,
       "id": 136,
-      "title": "asperiores illo tempora fuga sed ut quasi adipisci",
+      "title": "Crear una lista de reproducción de música relajante y utilizarla para meditar o relajarse.",
       "completed": false
     },
     {
       "userId": 7,
       "id": 137,
-      "title": "qui sit non",
+      "title": "Visitar una granja local y participar en actividades agrícolas, como recoger frutas o verduras.",
       "completed": false
     },
     {
       "userId": 7,
       "id": 138,
-      "title": "placeat minima consequatur rem qui ut",
+      "title": "Hacer una sesión de fotografía macro, capturando detalles en pequeña escala.",
       "completed": true
     },
     {
       "userId": 7,
       "id": 139,
-      "title": "consequatur doloribus id possimus voluptas a voluptatem",
+      "title": "Participar en una clase de baile virtual y aprender movimientos nuevos y divertidos.",
       "completed": false
     },
     {
       "userId": 7,
       "id": 140,
-      "title": "aut consectetur in blanditiis deserunt quia sed laboriosam",
+      "title": "Crear un diario de viaje y documentar tus aventuras y experiencias mientras exploras nuevos lugares.",
       "completed": true
     },
     {
       "userId": 8,
       "id": 141,
-      "title": "explicabo consectetur debitis voluptates quas quae culpa rerum non",
+      "title": "Practicar la técnica de la visualización creativa, imaginando tus metas y sueños como si ya se hubieran cumplido.",
       "completed": true
     },
     {
       "userId": 8,
       "id": 142,
-      "title": "maiores accusantium architecto necessitatibus reiciendis ea aut",
+      "title": "Realizar una sesión de limpieza y organización en tu espacio de trabajo para aumentar la productividad.",
       "completed": true
     },
     {
       "userId": 8,
       "id": 143,
-      "title": "eum non recusandae cupiditate animi",
+      "title": "Planificar una escapada de fin de semana a un destino cercano y explorar nuevos lugares.",
       "completed": false
     },
     {
       "userId": 8,
       "id": 144,
-      "title": "ut eum exercitationem sint",
+      "title": "Hacer una sesión de ejercicios de entrenamiento de fuerza para fortalecer el cuerpo.",
       "completed": false
     },
     {
       "userId": 8,
       "id": 145,
-      "title": "beatae qui ullam incidunt voluptatem non nisi aliquam",
+      "title": "Aprender una nueva receta de cocina saludable y preparar una comida nutritiva.",
       "completed": false
     },
     {
       "userId": 8,
       "id": 146,
-      "title": "molestiae suscipit ratione nihil odio libero impedit vero totam",
+      "title": "Visitar un vivero o jardín botánico y disfrutar de la belleza de las plantas y flores.",
       "completed": true
     },
     {
       "userId": 8,
       "id": 147,
-      "title": "eum itaque quod reprehenderit et facilis dolor autem ut",
+      "title": "Practicar la técnica de la escritura automotivacional, escribiendo frases positivas y motivadoras.",
       "completed": true
     },
     {
       "userId": 8,
       "id": 148,
-      "title": "esse quas et quo quasi exercitationem",
+      "title": "Organizar una noche de juegos de mesa estratégicos y poner a prueba tu habilidad para la toma de decisiones.",
       "completed": false
     },
     {
       "userId": 8,
       "id": 149,
-      "title": "animi voluptas quod perferendis est",
+      "title": "Explorar un nuevo parque temático o atracción turística en tu ciudad o área cercana.",
       "completed": false
     },
     {
       "userId": 8,
       "id": 150,
-      "title": "eos amet tempore laudantium fugit a",
+      "title": "Hacer una sesión de pintura al óleo o acuarela y dejar que tu creatividad fluya.",
       "completed": false
     },
     {
       "userId": 8,
       "id": 151,
-      "title": "accusamus adipisci dicta qui quo ea explicabo sed vero",
+      "title": "Practicar la técnica de la relajación progresiva de los músculos para aliviar la tensión y el estrés.",
       "completed": true
     },
     {
       "userId": 8,
       "id": 152,
-      "title": "odit eligendi recusandae doloremque cumque non",
+      "title": "Crear un álbum de recortes o scrapbook con fotos y recuerdos de momentos especiales.",
       "completed": false
     },
     {
       "userId": 8,
       "id": 153,
-      "title": "ea aperiam consequatur qui repellat eos",
+      "title": "Visitar una tienda de antigüedades o mercadillo y buscar tesoros escondidos.",
       "completed": false
     },
     {
       "userId": 8,
       "id": 154,
-      "title": "rerum non ex sapiente",
+      "title": "Hacer una sesión de cocina en familia y preparar una comida tradicional o receta heredada.",
       "completed": true
     },
     {
       "userId": 8,
       "id": 155,
-      "title": "voluptatem nobis consequatur et assumenda magnam",
+      "title": "Participar en una clase de arte o artesanía y aprender nuevas técnicas creativas.",
       "completed": true
     },
     {
       "userId": 8,
       "id": 156,
-      "title": "nam quia quia nulla repellat assumenda quibusdam sit nobis",
+      "title": "Crear una lista de reproducción de música motivadora para escuchar durante tus entrenamientos.",
       "completed": true
     },
     {
       "userId": 8,
       "id": 157,
-      "title": "dolorem veniam quisquam deserunt repellendus",
+      "title": "Realizar una sesión de meditación al aire libre, conectándote con la naturaleza y el entorno.",
       "completed": true
     },
     {
       "userId": 8,
       "id": 158,
-      "title": "debitis vitae delectus et harum accusamus aut deleniti a",
+      "title": "Hacer una sesión de fotografía nocturna y capturar la belleza de la ciudad iluminada.",
       "completed": true
     },
     {
       "userId": 8,
       "id": 159,
-      "title": "debitis adipisci quibusdam aliquam sed dolore ea praesentium nobis",
+      "title": "Planificar una cena romántica en casa y sorprender a tu pareja con una velada especial.",
       "completed": true
     },
     {
       "userId": 8,
       "id": 160,
-      "title": "et praesentium aliquam est",
+      "title": "Escribir una lista de objetivos a corto y largo plazo y desarrollar un plan para alcanzarlos.",
       "completed": false
     },
     {
