@@ -43,6 +43,10 @@ userSelect.addEventListener('change', () => {
               const checkbox = document.createElement('input');
               checkbox.type = 'checkbox';
               li.innerText = json.tareas[i].title;
+              if(json.tareas[i].completed)
+              {
+                checkbox.checked = true;
+              }
               li.appendChild(checkbox) 
               ul.appendChild(li);
             }
