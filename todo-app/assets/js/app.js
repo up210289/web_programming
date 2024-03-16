@@ -5,11 +5,13 @@ const taskContainer = document.getElementById('task-container');
 const user_name = document.getElementById('user-name');
 const user_mail = document.getElementById('user-mail');
 const task_list = document.getElementById('tasklist');
+const btn = document.getElementById('btn');
+
 
 // Codígo nesesario para mostrar información
 userSelect.addEventListener('change', () => {
   const userId = parseInt(userSelect.value);
-
+  
   getAllUsers()
     .then(function(json){
       console.log("JSON usuarios recibido:", json);
@@ -20,26 +22,36 @@ userSelect.addEventListener('change', () => {
           user_name.innerHTML = `${firstname} ${lastname}`;
           user_mail.innerHTML = email;
           break;
+        }else (userId === 0)
+        {
+          user_name.innerHTML = "";
+          user_mail.innerHTML = "";
+          task_list.innerHTML = "";
         }
       }
 
-      getAllTasks()
+      btn.addEventListener('click', () =>{
+        task_list.innerHTML = "";
+        getAllTasks()
         .then(function(json){
           console.log("JSON tareas recibido:", json);
           const ul = document.createElement('ul');
+          task_list.innerHTML = "";
           for (let i = 0; i < json.tareas.length; i++) {
             if (userId === json.tareas[i].userId) {
               const li = document.createElement('li');
               const checkbox = document.createElement('input');
               checkbox.type = 'checkbox';
               li.innerText = json.tareas[i].title;
-              li.appendChild(checkbox)
+              li.appendChild(checkbox) 
               ul.appendChild(li);
             }
-
           }
           task_list.appendChild(ul);
         });
+      })
+
+      
     });
 });
 
