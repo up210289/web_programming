@@ -2,64 +2,95 @@
 const userSelect = document.getElementById('select-users');
 const userContainer = document.getElementById('user-container');
 const taskContainer = document.getElementById('task-container');
-const user_name = document.getElementById('user-name');
-const user_mail = document.getElementById('user-mail');
-const task_list = document.getElementById('tasklist');
-const btn = document.getElementById('btn');
-
+const btnSearchTask = document.getElementById('btn');
 
 // Codígo nesesario para mostrar información
-userSelect.addEventListener('change', () => {
-  const userId = parseInt(userSelect.value);
-  
+document.addEventListener('DOMContentLoaded', () => {
   getAllUsers()
-    .then(function(json){
-      console.log("JSON usuarios recibido:", json);
-      for (let i = 0; i < json.usuarios.length; i++) {
-        console.log("Comparando userId con id:", userId, json.usuarios[i].id);
-        if (userId === json.usuarios[i].id) {
-          const { firstname, lastname, email } = json.usuarios[i];
-          user_name.innerHTML = `${firstname} ${lastname}`;
-          user_mail.innerHTML = email;
-          break;
-        }else (userId === 0)
-        {
-          user_name.innerHTML = "";
-          user_mail.innerHTML = "";
-          task_list.innerHTML = "";
-        }
+    .then(allUsers => {
+      let template = "";
+      const firstUser = allUsers[0];
+      for(let i = 0; i < allUsers.length; i++) {
+        template += `
+          <option value="${allUsers[i].id}" >${allUsers[i].firstname}</option>
+        `;
       }
 
-      btn.addEventListener('click', () =>{
-        task_list.innerHTML = "";
-        getAllTasks()
-        .then(function(json){
-          console.log("JSON tareas recibido:", json);
-          const ul = document.createElement('ul');
-          task_list.innerHTML = "";
-          for (let i = 0; i < json.tareas.length; i++) {
-            if (userId === json.tareas[i].userId) {
-              const li = document.createElement('li');
-              const checkbox = document.createElement('input');
-              checkbox.type = 'checkbox';
-              li.innerText = json.tareas[i].title;
-              if(json.tareas[i].completed)
-              {
-                checkbox.checked = true;
-              }
-              li.appendChild(checkbox) 
-              ul.appendChild(li);
-            }
-          }
-          task_list.appendChild(ul);
-        });
-      })
-
-      
+      userSelect.innerHTML = template;
+      userContainer.innerHTML = `
+        <h3>Informacion del usuario seleccionado</h3>
+        <ul>
+          <li>Nombre completo: ${firstUser.firstname} ${firstUser.lastname}</li>
+          <li>Email: ${firstUser.email}</li>
+        </ul>
+      `;
     });
 });
 
-// Fin de codígo 
+userSelect.addEventListener('change', (e) => {
+  const id = parseInt(e.target.value);
+  
+  getAllUsers()
+    .then(allUsers => {
+      const ul = document.createElement('ul');
+      for (let i = 0; i<allUsers.length;i++) {
+        if (id === allUsers[i].id) {
+          const liNombre = document.createElement('li');
+          const liCorreo = document.createElement('li');
+
+          liNombre.innerText = `${allUsers[i].firstname} ${allUsers[i].lastname}`;
+          liCorreo.innerText = allUsers[i].email;
+
+          ul.appendChild(liNombre);
+          ul.appendChild(liCorreo);
+
+          break;
+        }
+      }
+
+      const h3 = document.createElement('h3');
+      h3.innerText = "Informacion del usuario seleccionado";
+
+      userContainer.innerHTML = "";
+      userContainer.appendChild(h3);
+      userContainer.appendChild(ul);
+    });
+});
+
+btnSearchTask.addEventListener('click', () => {
+  const id = parseInt(userSelect.value);
+
+  getAllTasks()
+    .then(allTasks => {
+      let template = "";
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+      for (let i = 0; i< allTasks.length; i++) {
+        if (id === allTasks[i].idUser) {
+          let isChecked = "";
+
+          if (allTasks[i].completed) {
+            isChecked = "checked";
+          }
+
+          template += `
+            <li>
+              <span>${allTasks[i].title}</span>
+              <input type="checkbox" ${isChecked}>
+            </li>
+          `;
+        }
+      }
+
+      taskContainer.innerHTML = `
+        <h3>Lista de tareas del usuario</h3>
+        <ul>
+          ${template}
+        </ul>
+      `;
+    });
+});
+
+// Fin de codígo
 
 // Funciones
 /**
@@ -67,25 +98,23 @@ userSelect.addEventListener('change', () => {
  * @returns {Promise<User[]>}
  */
 function getAllUsers() {
-  return fetch('/todo-app/data/usuarios.json')
+  return fetch('http://localhost:5000/PHP/connection.php')
     .then(resp => resp.json());
 }
-
-
-
+  
 /**
  * Optiene una lista de todas las tareas que hay de todos los usuarios
  * @returns {Promise<Task[]>}
  */
 function getAllTasks() {
-  return fetch('/todo-app/data/tareas.json')
+  return fetch('http://localhost:5000/PHP/tasks.php')
     .then(resp => resp.json());
 }
 
 /**
  * @typedef User Definición de un usuario
  * @property {number} id Identificador unico del usuario
- * @property {string} firtsname Primer nombre del usuario
+ * @property {string} firstname Primer nombre del usuario
  * @property {string} lastname Apellido del usuario
  * @property {string} email Correo electronico del usuario
   */
